@@ -1,0 +1,2 @@
+save the downloaded stable diffusion model as cache
+save the checkpoints in this page for GPU friendly inferences
