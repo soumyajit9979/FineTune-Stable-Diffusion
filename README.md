@@ -57,19 +57,67 @@ You can download the official weights from Hugging Face (requires an account and
 
 Place the weights in the model/ directory.
 
-🏃‍♂️ How to Fine-Tune
-Place your custom images (e.g., portraits of yourself) inside the images/ folder.
+## 🏃‍♂️ How to Fine-Tune
+1. Place your custom images (e.g., portraits of yourself) inside the images/ folder.
 
-Open the notebook441d321338.ipynb in Jupyter Notebook.
+2. Open the notebook441d321338.ipynb in Jupyter Notebook.
 
-Follow the steps to:
+3. Follow the steps to:
 
-Preprocess images
+    1. Preprocess images
 
-Load base model
+    2. Load base model
 
-Fine-tune using your data
+    3. Fine-tune using your data
 
-Save model checkpoints
+    4. Save model checkpoints
 
-After training, test image generation using prompts that include a custom token (e.g., photo of sks person).
+4. After training, test image generation using prompts that include a custom token (e.g., photo of sks person).
+
+
+## 🧪 Example Prompts
+
+Try prompts like:
+
+``` bash
+"A realistic photo of sks person in a cyberpunk city"
+"A painting of sks person by Van Gogh"
+"A photo of sks person wearing medieval armor"
+```
+Replace sks person with your custom token used during fine-tuning.
+
+
+
+## 🖼 Sample Outputs
+
+Prompt	Output
+A photo of sks person in a forest	
+
+A digital painting of sks person as a superhero
+
+
+## 📦 Requirements
+
+See requirements.txt, which includes:
+
+  torch
+  
+  transformers
+  
+  diffusers
+  
+  accelerate
+  
+  xformers (optional)
+  
+  bitsandbytes (optional)
+  
+  notebook, matplotlib, opencv-python, and more
+
+
+
+To install:
+```bash
+pip install -r requirements.txt
+```
+
