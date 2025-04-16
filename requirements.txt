@@ -1,0 +1,30 @@
+# Core libraries
+torch>=2.0.0
+transformers>=4.30.0
+diffusers>=0.17.0
+accelerate>=0.20.0
+safetensors
+scipy
+numpy
+pandas
+Pillow
+tqdm
+
+# For training (DreamBooth/LoRA support)
+xformers  # Optional, for memory-efficient attention
+bitsandbytes  # Optional, for 8-bit optimizer support
+
+# Visualization and Jupyter
+matplotlib
+notebook
+ipykernel
+
+# Hugging Face
+huggingface_hub
+datasets
+
+# Image preprocessing
+opencv-python
+
+# For file I/O
+omegaconf
